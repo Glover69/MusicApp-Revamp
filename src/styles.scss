@@ -1,1 +1,218 @@
-/* You can add global styles to this file, and also import other style files */
+/* Constant Variables */
+
+
+// Fonts
+
+@font-face {
+    font-family: 'Gotham Light';
+    src: url('/assets/fonts/GothamBook.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('/assets/fonts/GothamMedium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('/assets/fonts/GothamBold.ttf') format('truetype');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+    /* Header-lg is for the big texts. eg. is the Album 
+    title on the album profile page and the titles on the
+    main pages */
+
+
+    #header-lg-dark {
+        color: #000;
+        font-family: 'Gotham Medium';
+        font-size: 2rem;
+        letter-spacing: -0.05rem;
+        font-weight: 500;
+    }
+
+    #header-lg-white {
+        color: #fff;
+        font-family: 'Gotham Medium';
+        font-size: 2rem;
+        letter-spacing: -0.05rem;
+        font-weight: 500;
+    }
+
+
+    /* Header-med is for the section titles on the main pages */
+
+    #header-med-dark {
+        color: #000;
+        font-family: 'Gotham Medium';
+        font-size: 1.25rem;
+    }
+
+    #header-med-white {
+        color: #fff;
+        font-family: 'Gotham Medium';
+        font-size: 1.25rem;
+    }
+
+    /* Header-sm is for the album/playlist names on 
+      the main pages and the ones in the miniplaer
+       as well  */
+
+    #header-sm-dark {
+        color: #000;
+        font-family: 'Gotham Medium';
+        font-size: 1rem;
+    }
+
+    #header-sm-white {
+        color: #fff;
+        font-family: 'Gotham Medium';
+        font-size: 1rem;
+    }
+
+
+    /* Header-sm is for the album/playlist names on 
+      the main pages and the ones in the miniplayer
+       as well  */
+
+    #header-x-sm-dark {
+        color: #000;
+        font-family: 'Gotham Medium';
+        font-size: 0.75rem;
+    }
+
+    #header-x-sm-white {
+        color: #fff;
+        font-family: 'Gotham Medium';
+        font-size: 0.75rem;
+    }
+
+
+
+    /* Light text at the album profile page for the album details
+     Also for the list of songs; the main artist and the featured one (if any) */
+
+    #subtxt-lg {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: 'Gotham Light';
+        letter-spacing: -0.05rem;
+        font-size: 1.25rem;
+    }
+
+    #subtxt-med {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: 'Gotham Light';
+        letter-spacing: -0.05rem;
+        font-size: 1rem;
+    }
+
+    #subtxt-sm {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: 'Gotham Light';
+        // letter-spacing: -0.05rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+
+
+
+
+    // Buttons
+    // Gray button with icon(small)
+
+    #btn-primary-sm {
+        gap: 0.5rem;
+        padding: 1.25rem 2.25rem;
+        flex-shrink: 0;
+        border-radius: 0.6rem;
+        background: #D9D9D9;
+        color: #000;
+        text-align: center;
+        font-family: 'Gotham Medium';
+        letter-spacing: -0.05rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        font-size: 1rem;
+    }
+
+
+    // Gray button with icon(large, mostly for album profile)
+
+    #btn-primary-lg {
+        gap: 0.5rem;
+        padding: 1.25rem 3rem;
+        flex-shrink: 0;
+        border-radius: 0.6rem;
+        background: #D9D9D9;
+        color: #000;
+        text-align: center;
+        font-family: 'Gotham Medium';
+        letter-spacing: -0.05rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        font-size: 1rem;
+    }
+
+
+    // Green regular buttons
+
+    #btn-secondary-sm {
+        gap: 0.5rem;
+        padding: 1.2rem 2.8rem;
+        flex-shrink: 0;
+        border-radius: 0.6rem;
+        background: #1ED760;
+        color: #fff;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: "Gotham Medium";
+        letter-spacing: -0.05rem;
+        border: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+// Colors
+
+// Dark Mode
+
+.dark-theme {
+    --main-bg-color: #010101;
+    --elevation-bg-color: #1e1e21;
+    --text-color: #fff;
+}
+
+app-root {
+    background: #010101;
+    height: 100vh;
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

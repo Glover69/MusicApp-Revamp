@@ -1,0 +1,22 @@
+.entire-wrapper{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: 11rem;
+}
+
+.album-cover-container{
+    background: url('/assets/images/volcano-cover.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.6rem;
+    width: 11rem;
+    height: 11rem;
+}
+
+.title{
+    flex-wrap: wrap;
+    display: flex;
+}
